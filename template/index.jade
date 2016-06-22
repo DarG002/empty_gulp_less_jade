@@ -1,0 +1,21 @@
+doctype html
+html(lang="ru")
+	
+	meta(content="text/html", charset="utf-8")
+	meta(name="description", content="Сервер Ark Survival Evolved")
+	title Сервер ARK SURVIVAL EVOLVED
+
+	link(href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900&subset=latin,cyrillic', rel='stylesheet', type='text/css')
+
+	// Подключаем стили
+	include ./includes/head.jade
+
+	body
+
+		//-Внести код Google Tag Manager!
+		include ./includes/tagmanager.html
+
+		include ./includes/s01.jade
+
+		// Подключаем скрипты
+		include ./includes/scripts.jade

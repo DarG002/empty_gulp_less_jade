@@ -1,0 +1,160 @@
+/*!
+ * Excontext
+ * Copyright 2015
+ * Dev: Afonin Oleg
+ */
+/*!
+ * Excontext
+ * Copyright 2015
+ * Dev: Afonin Oleg
+ */
+/*!
+ * Excontext
+ * Copyright 2015
+ * Dev: Afonin Oleg
+ */
+/*!
+ * Excontext
+ * Copyright 2015
+ * Dev: Afonin Oleg
+ */
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  outline: none;
+}
+/* Small devices (tablets, 768px and down) */
+.s01 {
+  height: 100%;
+}
+.s01 .row {
+  height: 100%;
+}
+.s01 .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #342341;
+}
+.s01 .h1 {
+  font-size: 6em;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.s01 .h2 {
+  font-size: 4em;
+  color: #29282a;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  top: 46px;
+}
+.s01 .h3 {
+  font-size: 2.4em;
+  color: #fff;
+  font-weight: 200;
+  text-transform: uppercase;
+  position: relative;
+  top: -38px;
+}
+.s01 .h4 {
+  font-size: 1.8em;
+  color: #fff;
+  font-weight: 200;
+  text-transform: uppercase;
+  position: relative;
+  top: -54px;
+}
+.s01 .the-island,
+.s01 .the-center {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.s01 .the-island {
+  background-image: url('/img/theIsland.jpg');
+}
+.s01 .the-island .h2 {
+  left: -134px;
+}
+.s01 .the-island .h3 {
+  left: 98px;
+}
+.s01 .the-island .h4 {
+  left: 112px;
+}
+.s01 .the-center {
+  background-image: url('/img/theCenter.jpg');
+}
+.s01 .the-center .h2 {
+  left: -146px;
+}
+.s01 .the-center .h3 {
+  left: 116px;
+}
+.s01 .the-center .h4 {
+  left: 120px;
+}
+.s01 .the-center .x3 {
+  position: absolute;
+  font-size: 4em;
+  font-weight: 600;
+  color: #29282a;
+  top: 50%;
+  left: 50%;
+  margin-left: 240px;
+  margin-top: -60px;
+}
+.s01 a {
+  font-size: 1.4em;
+  padding: 10px 50px;
+  color: #333;
+}
+.s01 a.btn-white {
+  background-color: #fff;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+.s01 .rating {
+  position: absolute;
+  font-weight: 600;
+  right: 20px;
+  bottom: 50px;
+  font-size: 4em;
+  color: #fff;
+}
+.s01 .vk {
+  position: absolute;
+  font-weight: 600;
+  right: -30px;
+  bottom: 10px;
+  font-size: 2em;
+  color: #fff;
+}
+.s01 .vk .color-vk {
+  color: #6383a8;
+}
+/*!
+ * Excontext
+ * Copyright 2015
+ * Dev: Afonin Oleg
+ */
+footer {
+  height: 200px;
+  background-color: #000000;
+}
